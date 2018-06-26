@@ -5,10 +5,13 @@ public class Ex1_10 {
     public static void main(String[] args) {
         int inch;
         for(inch = 1; inch <= 144; inch++){
-            if(inch == 1){
+            if(inch > 10 & inch < 21){
+                System.out.println(inch + " дюймов соответсвует " + String.format("%.4f",inch * 0.0254) + " метра" );
+            }
+            else if(inch % 10 == 1){
                 System.out.println(inch + " дюйм соответсвует " + String.format("%.4f",inch * 0.0254) + " метра" );
             }
-            else if(inch > 1 & inch < 5){
+            else if(inch % 10 > 1 & inch % 10 < 5){
                 System.out.println(inch + " дюйма соответсвует " + String.format("%.4f",inch * 0.0254) + " метра" );
             }
             else{
