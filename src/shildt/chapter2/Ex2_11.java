@@ -1,4 +1,4 @@
-package shildt.chapter1.chapter2;
+package shildt.chapter2;
 
 public class Ex2_11 {
     // вывод простых чисел от 2 до 100

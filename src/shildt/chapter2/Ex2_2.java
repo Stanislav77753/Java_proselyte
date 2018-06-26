@@ -1,4 +1,4 @@
-package shildt.chapter1.chapter2;
+package shildt.chapter2;
 
 public class Ex2_2 {
     //таблица истиности

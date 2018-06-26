@@ -1,4 +1,4 @@
-package shildt.chapter1.chapter2;
+package shildt.chapter2;
 
 import java.util.Scanner;
 
